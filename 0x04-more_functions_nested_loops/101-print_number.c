@@ -9,9 +9,8 @@ void print_integer(int m);
 void print_number(int n)
 {
 	if (n == 0)
-	{
+	
 		_putchar('0');
-	}
 	else if (n < 0)
 	{
 		_putchar('-');
@@ -26,6 +25,7 @@ void print_number(int n)
  * @m: an input unsigned integer
  * Return: Nothing
  */
+
 void print_integer(int m)
 {
 	int i = 1000000000;
