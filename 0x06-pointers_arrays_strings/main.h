@@ -27,5 +27,5 @@ void print_buffer(char *b, int size);
 
 void print_array(int *a, int n);
 
-
+int _putchar(char c);
 #endif
